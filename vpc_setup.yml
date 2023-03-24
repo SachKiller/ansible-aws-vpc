@@ -31,5 +31,9 @@
           Name: vprofile-pubsub1
         register: pubsub1_out
 
+    - set_fact:
+        pubsub1_id: "{{ pubsub1_out.subnet.id }}"
+        
+
 
       
