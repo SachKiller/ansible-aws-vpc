@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Variables File">
-      <change afterPath="$PROJECT_DIR$/site.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/bastion_setup" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/vpc_setup" beforeDir="false" afterPath="$PROJECT_DIR$/vars/vpc_setup" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="site.yml and vars update">
+      <change beforePath="$PROJECT_DIR$/bastion_instance.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bastion_instance.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +55,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679642867843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="site.yml and vars update">
+      <created>1680082114533</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680082114533</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -74,6 +78,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables File" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables File" />
+    <MESSAGE value="site.yml and vars update" />
+    <option name="LAST_COMMIT_MESSAGE" value="site.yml and vars update" />
   </component>
 </project>
