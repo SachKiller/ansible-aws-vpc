@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="site.yml and vars update">
-      <change beforePath="$PROJECT_DIR$/bastion_instance.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bastion_instance.yml" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="chang">
+      <change afterPath="$PROJECT_DIR$/vpro-ec2-stack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/output_vars" beforeDir="false" afterPath="$PROJECT_DIR$/vars/output_vars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c27080a6-69fc-433a-9610-3a04e1c760a0" />
+        <option name="url" value="https://github.com/SachKiller/ansible-aws-vpc.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680082114533</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="chang">
+      <created>1680082894892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680082894892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Variables File" />
     <MESSAGE value="site.yml and vars update" />
-    <option name="LAST_COMMIT_MESSAGE" value="site.yml and vars update" />
+    <MESSAGE value="chang" />
+    <option name="LAST_COMMIT_MESSAGE" value="chang" />
   </component>
 </project>
