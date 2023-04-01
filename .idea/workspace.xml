@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="output vars">
-      <change beforePath="$PROJECT_DIR$/vpro-ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpro-ec2-stack.yml" afterDir="false" />
-    </list>
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Key name changed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680083781333</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Keys">
+      <created>1680332953307</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680332953307</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Key name changed">
+      <created>1680333089704</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680333089704</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +120,8 @@
     <MESSAGE value="site.yml and vars update" />
     <MESSAGE value="chang" />
     <MESSAGE value="output vars" />
-    <option name="LAST_COMMIT_MESSAGE" value="output vars" />
+    <MESSAGE value="Keys" />
+    <MESSAGE value="Key name changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key name changed" />
   </component>
 </project>
