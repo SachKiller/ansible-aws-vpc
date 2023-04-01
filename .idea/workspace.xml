@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="output vars">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vpro-ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpro-ec2-stack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
