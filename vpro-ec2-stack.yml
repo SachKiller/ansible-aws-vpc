@@ -22,12 +22,12 @@
     - debug:
         var: vprokey2_out
 
-    - name: Save private key into file
-      copy:
-        content: "{{ vprokey2_out.key.private_key }}"
-        dest: "./loginkey_vpro.pem"
-        mode: 0600
-      when: vprokey2_out.changed
+  #  - name: Save private key into file
+  #    copy:
+  #      content: "{{ vprokey2_out.key.private_key }}"
+  #     dest: "./loginkey_vpro.pem"
+  #     mode: 0600
+  #   when: vprokey2_out.changed
 
     - name: Create Security Group for Load Balancer
       ec2_group:
@@ -207,11 +207,11 @@
             rmq01_ip: {{ rmq01_out.tagged_instances[0].private_ip }}
             mc01_ip: {{ mc01_out.tagged_instances[0].private_ip }}
             db01_ip: {{ db01_out.tagged_instances[0].private_ip }}
-          
+
     - name: Copy Login key to provision_stack directory
       copy:
-        src: loginkey_vpro.pem
-        dest: provision-stack/loginkey_vpro.pem
+        src: vprokey2.pem
+        dest: provision-stack/vprokey2.pem
         mode: "0400"
 
     - name: Insert/Update Inventory file provision-stack/inventory-vpro
