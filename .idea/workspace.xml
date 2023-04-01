@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Up">
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="AGinn Key">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vpro-ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpro-ec2-stack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680344885736</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="AGinn Key">
+      <created>1680345273979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680345273979</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +164,7 @@
     <MESSAGE value="Key issue" />
     <MESSAGE value="Key updated" />
     <MESSAGE value="Up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Up" />
+    <MESSAGE value="AGinn Key" />
+    <option name="LAST_COMMIT_MESSAGE" value="AGinn Key" />
   </component>
 </project>
