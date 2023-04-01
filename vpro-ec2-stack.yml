@@ -19,6 +19,9 @@
         region: "{{ region }}"
       register: vprokey_out
 
+    - debug:
+        var: vprokey_out
+
     - name: Save private key into file
       copy:
         content: "{{ vprokey_out.key.private_key }}"
