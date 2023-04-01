@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="new file">
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Key issue">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vpro-ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vpro-ec2-stack.yml" afterDir="false" />
     </list>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680333418685</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Key issue">
+      <created>1680343925719</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680343925719</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +140,7 @@
     <MESSAGE value="Keys" />
     <MESSAGE value="Key name changed" />
     <MESSAGE value="new file" />
-    <option name="LAST_COMMIT_MESSAGE" value="new file" />
+    <MESSAGE value="Key issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Key issue" />
   </component>
 </project>
