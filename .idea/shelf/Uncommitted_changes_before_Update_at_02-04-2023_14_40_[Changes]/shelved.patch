@@ -1,0 +1,57 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"680565d9-a3de-46e8-868f-d1dcfdfe2807\" name=\"Changes\" comment=\"Hosts ips\">\r\n      <change afterPath=\"$PROJECT_DIR$/provision-stack/db.yml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"c27080a6-69fc-433a-9610-3a04e1c760a0\" />\r\n        <option name=\"url\" value=\"https://github.com/SachKiller/ansible-aws-vpc.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2NRws9VXfU28n3UXuWMtlK3BWyn\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;D:/Devops Udemy/Ansible on AWS/ansible/vars&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Devops Udemy\\Ansible on AWS\\ansible\\vars\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"680565d9-a3de-46e8-868f-d1dcfdfe2807\" name=\"Changes\" comment=\"\" />\r\n      <created>1679640406921</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1679640406921</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Variables File\">\r\n      <created>1679642867842</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679642867843</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"site.yml and vars update\">\r\n      <created>1680082114533</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680082114533</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"chang\">\r\n      <created>1680082894892</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680082894892</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"output vars\">\r\n      <created>1680083781333</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680083781333</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Keys\">\r\n      <created>1680332953307</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680332953307</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Key name changed\">\r\n      <created>1680333089704</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680333089704</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"new file\">\r\n      <created>1680333418685</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680333418685</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"Key issue\">\r\n      <created>1680343925719</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680343925719</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Key updated\">\r\n      <created>1680344742755</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680344742756</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"Up\">\r\n      <created>1680344885736</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680344885736</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"AGinn Key\">\r\n      <created>1680345273979</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680345273979</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"Gain key\">\r\n      <created>1680345952057</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680345952057</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"Db setup\">\r\n      <created>1680421229514</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680421229514</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"Hosts ips\">\r\n      <created>1680423553769</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1680423553769</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"15\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Variables File\" />\r\n    <MESSAGE value=\"site.yml and vars update\" />\r\n    <MESSAGE value=\"chang\" />\r\n    <MESSAGE value=\"output vars\" />\r\n    <MESSAGE value=\"Keys\" />\r\n    <MESSAGE value=\"Key name changed\" />\r\n    <MESSAGE value=\"new file\" />\r\n    <MESSAGE value=\"Key issue\" />\r\n    <MESSAGE value=\"Key updated\" />\r\n    <MESSAGE value=\"Up\" />\r\n    <MESSAGE value=\"AGinn Key\" />\r\n    <MESSAGE value=\"Gain key\" />\r\n    <MESSAGE value=\"Db setup\" />\r\n    <MESSAGE value=\"Hosts ips\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Hosts ips\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision da9074087f68ea551f94272914523901ae48ba9a)
++++ b/.idea/workspace.xml	(date 1680426253353)
+@@ -4,8 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Hosts ips">
+-      <change afterPath="$PROJECT_DIR$/provision-stack/db.yml" afterDir="false" />
++    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="db something">
++      <change afterPath="$PROJECT_DIR$/provision-stack/dbdeploy.yml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -160,7 +160,21 @@
+       <option name="project" value="LOCAL" />
+       <updated>1680423553769</updated>
+     </task>
+-    <option name="localTasksCounter" value="15" />
++    <task id="LOCAL-00015" summary="db playbook">
++      <created>1680425193215</created>
++      <option name="number" value="00015" />
++      <option name="presentableId" value="LOCAL-00015" />
++      <option name="project" value="LOCAL" />
++      <updated>1680425193215</updated>
++    </task>
++    <task id="LOCAL-00016" summary="db something">
++      <created>1680425296498</created>
++      <option name="number" value="00016" />
++      <option name="presentableId" value="LOCAL-00016" />
++      <option name="project" value="LOCAL" />
++      <updated>1680425296498</updated>
++    </task>
++    <option name="localTasksCounter" value="17" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -189,6 +203,8 @@
+     <MESSAGE value="Gain key" />
+     <MESSAGE value="Db setup" />
+     <MESSAGE value="Hosts ips" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Hosts ips" />
++    <MESSAGE value="db playbook" />
++    <MESSAGE value="db something" />
++    <option name="LAST_COMMIT_MESSAGE" value="db something" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git a/provision-stack/dbdeploy.yml b/provision-stack/dbdeploy.yml
+new file mode 100644
