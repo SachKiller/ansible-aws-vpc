@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Db setup">
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Hosts ips">
+      <change afterPath="$PROJECT_DIR$/provision-stack/db.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision-stack/group_vars/hostsip" beforeDir="false" afterPath="$PROJECT_DIR$/provision-stack/group_vars/hostsip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision-stack/set_host_ip_map.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provision-stack/set_host_ip_map.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680421229514</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Hosts ips">
+      <created>1680423553769</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680423553769</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +188,7 @@
     <MESSAGE value="AGinn Key" />
     <MESSAGE value="Gain key" />
     <MESSAGE value="Db setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Db setup" />
+    <MESSAGE value="Hosts ips" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hosts ips" />
   </component>
 </project>
