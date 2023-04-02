@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Hosts ips">
-      <change afterPath="$PROJECT_DIR$/provision-stack/db.yml" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="db something">
+      <change afterPath="$PROJECT_DIR$/provision-stack/dbdeploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680423553769</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="db playbook">
+      <created>1680425193215</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680425193215</updated>
+    </task>
+    <task id="LOCAL-00016" summary="db something">
+      <created>1680425296498</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680425296498</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +203,8 @@
     <MESSAGE value="Gain key" />
     <MESSAGE value="Db setup" />
     <MESSAGE value="Hosts ips" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hosts ips" />
+    <MESSAGE value="db playbook" />
+    <MESSAGE value="db something" />
+    <option name="LAST_COMMIT_MESSAGE" value="db something" />
   </component>
 </project>
