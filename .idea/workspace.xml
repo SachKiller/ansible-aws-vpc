@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Db deploy">
-      <change afterPath="$PROJECT_DIR$/provision-stack/memcache.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Memcache playbook">
+      <change afterPath="$PROJECT_DIR$/provision-stack/rabbitmq.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680426666694</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Memcache playbook">
+      <created>1680427438158</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680427438158</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +219,7 @@
     <MESSAGE value="db playbook" />
     <MESSAGE value="db something" />
     <MESSAGE value="Db deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Db deploy" />
+    <MESSAGE value="Memcache playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Memcache playbook" />
   </component>
 </project>
