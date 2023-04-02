@@ -1,0 +1,95 @@
+2023-04-02 07:44:29,427 p=1038 u=root n=ansible | PLAY [Generate artifact, copy artifact and sql files to files directory] *******
+2023-04-02 07:44:29,445 p=1038 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 07:44:30,850 p=1038 u=root n=ansible | ok: [localhost]
+2023-04-02 07:44:30,866 p=1038 u=root n=ansible | TASK [Install jdk, maven, git] *************************************************
+2023-04-02 07:44:39,078 p=1038 u=root n=ansible | ok: [localhost] => (item=git)
+2023-04-02 07:45:18,667 p=1038 u=root n=ansible | changed: [localhost] => (item=openjdk-8-jdk)
+2023-04-02 07:45:29,070 p=1038 u=root n=ansible | changed: [localhost] => (item=maven)
+2023-04-02 07:45:29,086 p=1038 u=root n=ansible | TASK [Clone source code from Github] *******************************************
+2023-04-02 07:45:33,564 p=1038 u=root n=ansible | changed: [localhost]
+2023-04-02 07:45:33,576 p=1038 u=root n=ansible | TASK [mvn install command to build artifact] ***********************************
+2023-04-02 07:46:15,813 p=1038 u=root n=ansible | changed: [localhost]
+2023-04-02 07:46:15,847 p=1038 u=root n=ansible | TASK [Copy artifacts to files directory] ***************************************
+2023-04-02 07:46:17,122 p=1038 u=root n=ansible | changed: [localhost] => (item=/root/ansible-aws-vpc/provision-stack/Vprofile-repo/target/vprofile-v2.war)
+2023-04-02 07:46:17,133 p=1038 u=root n=ansible | TASK [Copy SQL files to file directory] ****************************************
+2023-04-02 07:46:17,576 p=1038 u=root n=ansible | changed: [localhost]
+2023-04-02 07:46:17,593 p=1038 u=root n=ansible | PLAY RECAP *********************************************************************
+2023-04-02 07:46:17,593 p=1038 u=root n=ansible | localhost                  : ok=6    changed=5    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:09:16,297 p=6301 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:09:16,318 p=6301 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:09:16,457 p=6301 u=root n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.84: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:09:17,930 p=6301 u=root n=ansible | ok: [cntl]
+2023-04-02 08:09:24,450 p=6301 u=root n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '172.20.4.43' (ECDSA) to the list of known hosts.\r\nno such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.43: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:10:21,401 p=6301 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2023-04-02 08:10:56,124 p=6414 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:10:56,133 p=6414 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:10:56,277 p=6414 u=root n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.84: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:10:56,280 p=6414 u=root n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.43: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:10:57,542 p=6414 u=root n=ansible | ok: [cntl]
+2023-04-02 08:13:13,543 p=6414 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2023-04-02 08:19:41,930 p=6932 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:19:41,939 p=6932 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:19:42,092 p=6932 u=root n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.84: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:19:42,097 p=6932 u=root n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.43: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:19:43,372 p=6932 u=root n=ansible | ok: [cntl]
+2023-04-02 08:20:29,892 p=6932 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2023-04-02 08:23:57,154 p=7046 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:23:57,164 p=7046 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:23:57,322 p=7046 u=root n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.84: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:23:57,328 p=7046 u=root n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: no such identity: loginkey_vpro.pem: No such file or directory\r\nubuntu@172.20.4.43: Permission denied (publickey).", "unreachable": true}
+2023-04-02 08:23:58,643 p=7046 u=root n=ansible | ok: [cntl]
+2023-04-02 08:24:21,518 p=7046 u=root n=ansible |  [ERROR]: User interrupted execution
+
+2023-04-02 08:28:07,342 p=7161 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:28:07,351 p=7161 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:28:09,139 p=7161 u=root n=ansible | ok: [cntl]
+2023-04-02 08:28:09,143 p=7161 u=root n=ansible | ok: [web01]
+2023-04-02 08:28:10,297 p=7161 u=root n=ansible | ok: [app01]
+2023-04-02 08:28:24,351 p=7161 u=root n=ansible | ok: [rmq01]
+2023-04-02 08:29:07,602 p=7161 u=root n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Host key verification failed.", "unreachable": true}
+2023-04-02 08:29:12,506 p=7161 u=root n=ansible | fatal: [db01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Host key verification failed.", "unreachable": true}
+2023-04-02 08:29:12,524 p=7161 u=root n=ansible | TASK [Import VPC setup variable] ***********************************************
+2023-04-02 08:29:12,553 p=7161 u=root n=ansible | ok: [cntl]
+2023-04-02 08:29:12,590 p=7161 u=root n=ansible | ok: [web01]
+2023-04-02 08:29:12,594 p=7161 u=root n=ansible | ok: [app01]
+2023-04-02 08:29:12,602 p=7161 u=root n=ansible | ok: [rmq01]
+2023-04-02 08:29:12,611 p=7161 u=root n=ansible | TASK [Update hosts file for all the hosts] *************************************
+2023-04-02 08:29:13,150 p=7161 u=root n=ansible | changed: [cntl]
+2023-04-02 08:29:13,187 p=7161 u=root n=ansible | changed: [rmq01]
+2023-04-02 08:29:13,503 p=7161 u=root n=ansible | changed: [app01]
+2023-04-02 08:29:13,528 p=7161 u=root n=ansible | changed: [web01]
+2023-04-02 08:29:13,545 p=7161 u=root n=ansible | PLAY RECAP *********************************************************************
+2023-04-02 08:29:13,545 p=7161 u=root n=ansible | app01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:13,546 p=7161 u=root n=ansible | cntl                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:13,546 p=7161 u=root n=ansible | db01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:13,546 p=7161 u=root n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:13,546 p=7161 u=root n=ansible | rmq01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:13,547 p=7161 u=root n=ansible | web01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:29:52,999 p=7370 u=root n=ansible | PLAY [Set host to ip mapping in /etc/hosts file of all the instances in the stack] ***
+2023-04-02 08:29:53,008 p=7370 u=root n=ansible | TASK [Gathering Facts] *********************************************************
+2023-04-02 08:29:54,712 p=7370 u=root n=ansible | ok: [app01]
+2023-04-02 08:29:54,716 p=7370 u=root n=ansible | ok: [rmq01]
+2023-04-02 08:29:54,721 p=7370 u=root n=ansible | ok: [web01]
+2023-04-02 08:29:54,927 p=7370 u=root n=ansible | ok: [cntl]
+2023-04-02 08:32:17,442 p=7370 u=root n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '172.20.4.235' (ECDSA) to the list of known hosts.\r\nConnection closed by 172.20.4.235 port 22", "unreachable": true}
+2023-04-02 08:32:22,002 p=7370 u=root n=ansible | fatal: [db01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: Warning: Permanently added '172.20.4.82' (ECDSA) to the list of known hosts.\r\nConnection closed by 172.20.4.82 port 22", "unreachable": true}
+2023-04-02 08:32:22,019 p=7370 u=root n=ansible | TASK [Import VPC setup variable] ***********************************************
+2023-04-02 08:32:22,069 p=7370 u=root n=ansible | ok: [cntl]
+2023-04-02 08:32:22,093 p=7370 u=root n=ansible | ok: [web01]
+2023-04-02 08:32:22,094 p=7370 u=root n=ansible | ok: [app01]
+2023-04-02 08:32:22,100 p=7370 u=root n=ansible | ok: [rmq01]
+2023-04-02 08:32:22,109 p=7370 u=root n=ansible | TASK [Update hosts file for all the hosts] *************************************
+2023-04-02 08:32:22,601 p=7370 u=root n=ansible | ok: [cntl]
+2023-04-02 08:32:23,013 p=7370 u=root n=ansible | ok: [web01]
+2023-04-02 08:32:23,076 p=7370 u=root n=ansible | ok: [app01]
+2023-04-02 08:32:23,097 p=7370 u=root n=ansible | ok: [rmq01]
+2023-04-02 08:32:23,113 p=7370 u=root n=ansible | PLAY RECAP *********************************************************************
+2023-04-02 08:32:23,113 p=7370 u=root n=ansible | app01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:32:23,113 p=7370 u=root n=ansible | cntl                       : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:32:23,114 p=7370 u=root n=ansible | db01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:32:23,114 p=7370 u=root n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:32:23,114 p=7370 u=root n=ansible | rmq01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2023-04-02 08:32:23,114 p=7370 u=root n=ansible | web01                      : ok=3    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
