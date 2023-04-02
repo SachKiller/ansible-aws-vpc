@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Gain key">
-      <change afterPath="$PROJECT_DIR$/provision-stack/ansible.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provision-stack/group_vars/dbsrvgrp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provision-stack/site.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provision-stack/templates/application.j2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provision-stack/templates/nginxvpro.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provision-stack/build.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provision-stack/files/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
