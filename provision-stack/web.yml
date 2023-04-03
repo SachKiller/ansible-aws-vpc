@@ -3,13 +3,13 @@
   hosts: websrvgrp
   gather_facts: no
   tasks:
-    - name: Install Nginx
+    - name: Install nginx
       apt:
         name: nginx
         state: present
         update_cache: yes
         cache_valid_time: 86400
-      tage:
+      tags:
         - package
 
     - name: Start and Enable Nginx
