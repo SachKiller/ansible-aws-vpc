@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Nginx Playbook">
-      <change beforePath="$PROJECT_DIR$/provision-stack/web.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provision-stack/web.yml" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Nginx Playbook1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/provision-stack/db.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provision-stack/db.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680506813326</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Nginx Playbook1">
+      <created>1680507304684</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1680507304684</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +244,7 @@
     <MESSAGE value="Memcache playbook" />
     <MESSAGE value="Tomcat Playbook" />
     <MESSAGE value="Nginx Playbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nginx Playbook" />
+    <MESSAGE value="Nginx Playbook1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nginx Playbook1" />
   </component>
 </project>
