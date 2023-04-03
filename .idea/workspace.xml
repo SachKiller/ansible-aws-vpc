@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Nginx Playbook1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/provision-stack/db.yml" beforeDir="false" afterPath="$PROJECT_DIR$/provision-stack/db.yml" afterDir="false" />
-    </list>
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="databse playbook" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680507304684</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="databse playbook">
+      <created>1680508986095</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680508986095</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +249,7 @@
     <MESSAGE value="Tomcat Playbook" />
     <MESSAGE value="Nginx Playbook" />
     <MESSAGE value="Nginx Playbook1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nginx Playbook1" />
+    <MESSAGE value="databse playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="databse playbook" />
   </component>
 </project>
