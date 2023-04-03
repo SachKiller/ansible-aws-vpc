@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Memcache playbook">
-      <change afterPath="$PROJECT_DIR$/provision-stack/appserver.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provision-stack/templates/tomcat8-ubuntu-svcfile.j2" afterDir="false" />
+    <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Tomcat Playbook">
+      <change afterPath="$PROJECT_DIR$/provision-stack/web.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680427438158</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Tomcat Playbook">
+      <created>1680505888891</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1680505888891</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +228,7 @@
     <MESSAGE value="db something" />
     <MESSAGE value="Db deploy" />
     <MESSAGE value="Memcache playbook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Memcache playbook" />
+    <MESSAGE value="Tomcat Playbook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tomcat Playbook" />
   </component>
 </project>
