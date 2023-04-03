@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="680565d9-a3de-46e8-868f-d1dcfdfe2807" name="Changes" comment="Memcache playbook">
-      <change afterPath="$PROJECT_DIR$/provision-stack/rabbitmq.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provision-stack/appserver.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/provision-stack/templates/tomcat8-ubuntu-svcfile.j2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
